@@ -1,0 +1,13 @@
+const num1 = parseInt(prompt('Enter a number'));
+const num2 = parseInt(prompt('Enter another number'));
+const sum = num1 + num2;
+var output = "The sum of " + num1 + " and " + num2 + " is " + sum;
+alert(output);
+var firstName = prompt("Enter your first name");
+var lastName =  prompt("Enter your last name");
+var firName = firstName.slice(0,4);
+var lasName = lastName.slice(0,1);
+var finalName = firName + lasName;
+var exactName = finalName.toLowerCase();
+var mainName = "Your CapacityBay userid is " + exactName;
+alert(mainName);
