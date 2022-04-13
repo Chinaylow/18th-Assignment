@@ -9,5 +9,5 @@ var firName = firstName.slice(0,4);
 var lasName = lastName.slice(0,1);
 var finalName = firName + lasName;
 var exactName = finalName.toLowerCase();
-var mainName = "Your CapacityBay userid is " + exactName;
+var mainName = "Your CapacityBay userId is " + exactName;
 alert(mainName);
